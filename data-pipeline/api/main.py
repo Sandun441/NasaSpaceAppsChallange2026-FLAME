@@ -6,6 +6,10 @@ import re
 import sys
 from typing import Optional, Literal, List, Dict, Any
 from api.ai_execution_router import create_ai_execution_router
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 from fastapi import FastAPI, HTTPException, Query, Response, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
