@@ -1,0 +1,80 @@
+[
+  {
+    "dataset": "raw_data",
+    "status": "success",
+    "source_rows": 3972,
+    "analysis_rows": 3971,
+    "excluded_rows": 1,
+    "missing_timestamp_rows": 0,
+    "out_of_range_timestamp_rows": 1,
+    "duplicate_retained_timestamps": 5,
+    "backward_retained_time_transitions": 7,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_data",
+    "status": "success",
+    "source_rows": 58305,
+    "analysis_rows": 3844,
+    "excluded_rows": 54461,
+    "missing_timestamp_rows": 54460,
+    "out_of_range_timestamp_rows": 1,
+    "duplicate_retained_timestamps": 5,
+    "backward_retained_time_transitions": 7,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_smoke_detector_data",
+    "status": "success",
+    "source_rows": 58305,
+    "analysis_rows": 3844,
+    "excluded_rows": 54461,
+    "missing_timestamp_rows": 54460,
+    "out_of_range_timestamp_rows": 1,
+    "duplicate_retained_timestamps": 5,
+    "backward_retained_time_transitions": 7,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_pressure_data",
+    "status": "success",
+    "source_rows": 58305,
+    "analysis_rows": 3844,
+    "excluded_rows": 54461,
+    "missing_timestamp_rows": 54460,
+    "out_of_range_timestamp_rows": 1,
+    "duplicate_retained_timestamps": 5,
+    "backward_retained_time_transitions": 7,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_temperature_data",
+    "status": "success",
+    "source_rows": 58305,
+    "analysis_rows": 3844,
+    "excluded_rows": 54461,
+    "missing_timestamp_rows": 54460,
+    "out_of_range_timestamp_rows": 1,
+    "duplicate_retained_timestamps": 5,
+    "backward_retained_time_transitions": 7,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "saffire_data",
+    "status": "success",
+    "source_rows": 47,
+    "analysis_rows": 47,
+    "excluded_rows": 0,
+    "missing_timestamp_rows": 0,
+    "out_of_range_timestamp_rows": 0,
+    "duplicate_retained_timestamps": 0,
+    "backward_retained_time_transitions": 0,
+    "processing_status": "timestamp_screened",
+    "scientific_validation_status": "pending"
+  }
+]

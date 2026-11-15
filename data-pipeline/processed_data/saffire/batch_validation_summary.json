@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "saffire_iii_sample_2",
+    "status": "success",
+    "records": 4848,
+    "time_checks": {
+      "missing_elapsed_time": 0,
+      "non_increasing_elapsed_time": 0,
+      "large_time_gaps_over_0_1s": 0,
+      "non_increasing_epoch": 0,
+      "index_sequence_breaks": 0,
+      "median_sampling_interval": 0.03300000000000125
+    },
+    "missing_values": 0,
+    "constant_channels": 16,
+    "negative_channels": 7
+  },
+  {
+    "dataset": "saffire_sample_5",
+    "status": "success",
+    "records": 11363,
+    "time_checks": {
+      "missing_elapsed_time": 0,
+      "non_increasing_elapsed_time": 0,
+      "large_time_gaps_over_0_1s": 0,
+      "non_increasing_epoch": 0,
+      "index_sequence_breaks": 0,
+      "median_sampling_interval": 0.03300000000000125
+    },
+    "missing_values": 0,
+    "constant_channels": 16,
+    "negative_channels": 8
+  },
+  {
+    "dataset": "saffire_sample_6",
+    "status": "success",
+    "records": 11363,
+    "time_checks": {
+      "missing_elapsed_time": 0,
+      "non_increasing_elapsed_time": 0,
+      "large_time_gaps_over_0_1s": 0,
+      "non_increasing_epoch": 0,
+      "index_sequence_breaks": 0,
+      "median_sampling_interval": 0.03300000000000125
+    },
+    "missing_values": 0,
+    "constant_channels": 16,
+    "negative_channels": 8
+  }
+]

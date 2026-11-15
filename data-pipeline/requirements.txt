@@ -1,0 +1,10 @@
+pandas
+numpy
+openpyxl
+xlrd
+pymupdf
+python-docx
+lxml
+sentence-transformers
+torch
+scikit-learn

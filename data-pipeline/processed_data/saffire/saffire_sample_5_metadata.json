@@ -1,0 +1,472 @@
+{
+  "dataset": "saffire_sample_5",
+  "source_file": "Saffire Sensor Data Sample 5.xlsx",
+  "source_worksheet": "Calibrated Data",
+  "source_sha256": "e974b4ea303ee6a1b9e5c3c1fa569512a0770c342407d25a7354e0b25ba3cd61",
+  "source_header_row": 1,
+  "source_units_row": 2,
+  "source_data_start_row": 3,
+  "extracted_records": 11363,
+  "total_columns": 65,
+  "columns": [
+    {
+      "source_column": 1,
+      "column_name": "Elapsed Time (s)",
+      "original_header": "Elapsed Time (s)",
+      "original_unit": null
+    },
+    {
+      "source_column": 2,
+      "column_name": "Epoch Time",
+      "original_header": "Epoch Time",
+      "original_unit": null
+    },
+    {
+      "source_column": 3,
+      "column_name": "Timestamp (ms)",
+      "original_header": "Timestamp (ms)",
+      "original_unit": null
+    },
+    {
+      "source_column": 4,
+      "column_name": "Index",
+      "original_header": "Index",
+      "original_unit": null
+    },
+    {
+      "source_column": 5,
+      "column_name": "Average Fan Speed",
+      "original_header": "Average Fan Speed",
+      "original_unit": "RPM"
+    },
+    {
+      "source_column": 6,
+      "column_name": "CO2",
+      "original_header": "CO2",
+      "original_unit": "%"
+    },
+    {
+      "source_column": 7,
+      "column_name": "O2",
+      "original_header": "O2",
+      "original_unit": "%"
+    },
+    {
+      "source_column": 8,
+      "column_name": "Anemometer 1",
+      "original_header": "Anemometer 1",
+      "original_unit": "cm/sec"
+    },
+    {
+      "source_column": 9,
+      "column_name": "Anemometer 2",
+      "original_header": "Anemometer 2",
+      "original_unit": "cm/sec"
+    },
+    {
+      "source_column": 10,
+      "column_name": "Ambient Pressure",
+      "original_header": "Ambient Pressure",
+      "original_unit": "PSIA"
+    },
+    {
+      "source_column": 11,
+      "column_name": "Radiometer 1",
+      "original_header": "Radiometer 1",
+      "original_unit": "mw/cm^2"
+    },
+    {
+      "source_column": 12,
+      "column_name": "Radiometer 2",
+      "original_header": "Radiometer 2",
+      "original_unit": "mw/cm^2"
+    },
+    {
+      "source_column": 13,
+      "column_name": "Radiometer 3",
+      "original_header": "Radiometer 3",
+      "original_unit": "mw/cm^2"
+    },
+    {
+      "source_column": 14,
+      "column_name": "Radiometer 4",
+      "original_header": "Radiometer 4",
+      "original_unit": "mw/cm^2"
+    },
+    {
+      "source_column": 15,
+      "column_name": "Humidity",
+      "original_header": "Humidity",
+      "original_unit": "%"
+    },
+    {
+      "source_column": 16,
+      "column_name": "Test Section Inlet Temp",
+      "original_header": "Test Section Inlet Temp",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 17,
+      "column_name": "Plume Temp 1 (TC1)",
+      "original_header": "Plume Temp 1 (TC1)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 18,
+      "column_name": "Plume Temp 2 (TC2)",
+      "original_header": "Plume Temp 2 (TC2)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 19,
+      "column_name": "Plume Temp 3 (TC3)",
+      "original_header": "Plume Temp 3 (TC3)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 20,
+      "column_name": "Plume Temp 4 (TC4)",
+      "original_header": "Plume Temp 4 (TC4)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 21,
+      "column_name": "Plume Temp 5 (TC5)",
+      "original_header": "Plume Temp 5 (TC5)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 22,
+      "column_name": "Plume Temp 6 (TC6)",
+      "original_header": "Plume Temp 6 (TC6)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 23,
+      "column_name": "Sample Temp 1 (TC7)",
+      "original_header": "Sample Temp 1 (TC7)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 24,
+      "column_name": "Sample Temp 2 (TC8)",
+      "original_header": "Sample Temp 2 (TC8)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 25,
+      "column_name": "Sample Temp 3 (TC9)",
+      "original_header": "Sample Temp 3 (TC9)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 26,
+      "column_name": "Sample Temp 4 (TC10)",
+      "original_header": "Sample Temp 4 (TC10)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 27,
+      "column_name": "Sample Temp 5 (TC11)",
+      "original_header": "Sample Temp 5 (TC11)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 28,
+      "column_name": "Sample Temp 6 (TC12)",
+      "original_header": "Sample Temp 6 (TC12)",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 29,
+      "column_name": "Radiometer Temp 1",
+      "original_header": "Radiometer Temp 1",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 30,
+      "column_name": "Radiometer Temp 2",
+      "original_header": "Radiometer Temp 2",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 31,
+      "column_name": "Radiometer Temp 3",
+      "original_header": "Radiometer Temp 3",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 32,
+      "column_name": "Radiometer Temp 4",
+      "original_header": "Radiometer Temp 4",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 33,
+      "column_name": "Igniter Current",
+      "original_header": "Igniter Current",
+      "original_unit": "Amps"
+    },
+    {
+      "source_column": 34,
+      "column_name": "Igniter Voltage",
+      "original_header": "Igniter Voltage",
+      "original_unit": "Volts"
+    },
+    {
+      "source_column": 35,
+      "column_name": "Avionics H&S Temp 1",
+      "original_header": "Avionics H&S Temp 1",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 36,
+      "column_name": "Avionics H&S Temp 2",
+      "original_header": "Avionics H&S Temp 2",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 37,
+      "column_name": "Avionics H&S Temp 3",
+      "original_header": "Avionics H&S Temp 3",
+      "original_unit": "Degrees C"
+    },
+    {
+      "source_column": 38,
+      "column_name": "Avionics 24V",
+      "original_header": "Avionics 24V",
+      "original_unit": "Volts"
+    },
+    {
+      "source_column": 39,
+      "column_name": "PC104 5V",
+      "original_header": "PC104 5V",
+      "original_unit": "Volts"
+    },
+    {
+      "source_column": 40,
+      "column_name": "PC104 -12V",
+      "original_header": "PC104 -12V",
+      "original_unit": "Volts"
+    },
+    {
+      "source_column": 41,
+      "column_name": "PC104 +12V",
+      "original_header": "PC104 +12V",
+      "original_unit": "Volts"
+    },
+    {
+      "source_column": 42,
+      "column_name": "Igniter Voltage Set Point",
+      "original_header": "Igniter Voltage Set Point",
+      "original_unit": null
+    },
+    {
+      "source_column": 43,
+      "column_name": "Fan Speed Control",
+      "original_header": "Fan Speed Control",
+      "original_unit": null
+    },
+    {
+      "source_column": 44,
+      "column_name": "Igniter Power Enable",
+      "original_header": "Igniter Power Enable",
+      "original_unit": null
+    },
+    {
+      "source_column": 45,
+      "column_name": "Igniter Select 1",
+      "original_header": "Igniter Select 1",
+      "original_unit": null
+    },
+    {
+      "source_column": 46,
+      "column_name": "Igniter Select 2",
+      "original_header": "Igniter Select 2",
+      "original_unit": null
+    },
+    {
+      "source_column": 47,
+      "column_name": "Igniter Select 3",
+      "original_header": "Igniter Select 3",
+      "original_unit": null
+    },
+    {
+      "source_column": 48,
+      "column_name": "Igniter Select 4",
+      "original_header": "Igniter Select 4",
+      "original_unit": null
+    },
+    {
+      "source_column": 49,
+      "column_name": "Igniter Select 5",
+      "original_header": "Igniter Select 5",
+      "original_unit": null
+    },
+    {
+      "source_column": 50,
+      "column_name": "Igniter Select 6",
+      "original_header": "Igniter Select 6",
+      "original_unit": null
+    },
+    {
+      "source_column": 51,
+      "column_name": "Igniter Select 7",
+      "original_header": "Igniter Select 7",
+      "original_unit": null
+    },
+    {
+      "source_column": 52,
+      "column_name": "Igniter Select 8",
+      "original_header": "Igniter Select 8",
+      "original_unit": null
+    },
+    {
+      "source_column": 53,
+      "column_name": "Igniter Select 9",
+      "original_header": "Igniter Select 9",
+      "original_unit": null
+    },
+    {
+      "source_column": 54,
+      "column_name": "Smoke Wire Select",
+      "original_header": "Smoke Wire Select",
+      "original_unit": null
+    },
+    {
+      "source_column": 55,
+      "column_name": "LED Power 1",
+      "original_header": "LED Power 1",
+      "original_unit": null
+    },
+    {
+      "source_column": 56,
+      "column_name": "Camera 1 Trigger",
+      "original_header": "Camera 1 Trigger",
+      "original_unit": null
+    },
+    {
+      "source_column": 57,
+      "column_name": "Camera 2 Trigger",
+      "original_header": "Camera 2 Trigger",
+      "original_unit": null
+    },
+    {
+      "source_column": 58,
+      "column_name": "GSE DIO0",
+      "original_header": "GSE DIO0",
+      "original_unit": null
+    },
+    {
+      "source_column": 59,
+      "column_name": "GSE DIO1",
+      "original_header": "GSE DIO1",
+      "original_unit": null
+    },
+    {
+      "source_column": 60,
+      "column_name": "Camera 1 Power Control",
+      "original_header": "Camera 1 Power Control",
+      "original_unit": null
+    },
+    {
+      "source_column": 61,
+      "column_name": "Camera 2 Power Control",
+      "original_header": "Camera 2 Power Control",
+      "original_unit": null
+    },
+    {
+      "source_column": 62,
+      "column_name": "Anemometer Power Control 1&2",
+      "original_header": "Anemometer Power Control 1&2",
+      "original_unit": null
+    },
+    {
+      "source_column": 63,
+      "column_name": "O2 & CO2 Power Control",
+      "original_header": "O2 & CO2 Power Control",
+      "original_unit": null
+    },
+    {
+      "source_column": 64,
+      "column_name": "Test Section Fan Power Control",
+      "original_header": "Test Section Fan Power Control",
+      "original_unit": null
+    },
+    {
+      "source_column": 65,
+      "column_name": "Fan Tach /100",
+      "original_header": "Fan Tach /100",
+      "original_unit": null
+    }
+  ],
+  "missing_values_per_column": {
+    "Elapsed Time (s)": 0,
+    "Epoch Time": 0,
+    "Timestamp (ms)": 0,
+    "Index": 0,
+    "Average Fan Speed": 0,
+    "CO2": 0,
+    "O2": 0,
+    "Anemometer 1": 0,
+    "Anemometer 2": 0,
+    "Ambient Pressure": 0,
+    "Radiometer 1": 0,
+    "Radiometer 2": 0,
+    "Radiometer 3": 0,
+    "Radiometer 4": 0,
+    "Humidity": 0,
+    "Test Section Inlet Temp": 0,
+    "Plume Temp 1 (TC1)": 0,
+    "Plume Temp 2 (TC2)": 0,
+    "Plume Temp 3 (TC3)": 0,
+    "Plume Temp 4 (TC4)": 0,
+    "Plume Temp 5 (TC5)": 0,
+    "Plume Temp 6 (TC6)": 0,
+    "Sample Temp 1 (TC7)": 0,
+    "Sample Temp 2 (TC8)": 0,
+    "Sample Temp 3 (TC9)": 0,
+    "Sample Temp 4 (TC10)": 0,
+    "Sample Temp 5 (TC11)": 0,
+    "Sample Temp 6 (TC12)": 0,
+    "Radiometer Temp 1": 0,
+    "Radiometer Temp 2": 0,
+    "Radiometer Temp 3": 0,
+    "Radiometer Temp 4": 0,
+    "Igniter Current": 0,
+    "Igniter Voltage": 0,
+    "Avionics H&S Temp 1": 0,
+    "Avionics H&S Temp 2": 0,
+    "Avionics H&S Temp 3": 0,
+    "Avionics 24V": 0,
+    "PC104 5V": 0,
+    "PC104 -12V": 0,
+    "PC104 +12V": 0,
+    "Igniter Voltage Set Point": 0,
+    "Fan Speed Control": 0,
+    "Igniter Power Enable": 0,
+    "Igniter Select 1": 0,
+    "Igniter Select 2": 0,
+    "Igniter Select 3": 0,
+    "Igniter Select 4": 0,
+    "Igniter Select 5": 0,
+    "Igniter Select 6": 0,
+    "Igniter Select 7": 0,
+    "Igniter Select 8": 0,
+    "Igniter Select 9": 0,
+    "Smoke Wire Select": 0,
+    "LED Power 1": 0,
+    "Camera 1 Trigger": 0,
+    "Camera 2 Trigger": 0,
+    "GSE DIO0": 0,
+    "GSE DIO1": 0,
+    "Camera 1 Power Control": 0,
+    "Camera 2 Power Control": 0,
+    "Anemometer Power Control 1&2": 0,
+    "O2 & CO2 Power Control": 0,
+    "Test Section Fan Power Control": 0,
+    "Fan Tach /100": 0
+  },
+  "processing_status": "extracted_not_validated",
+  "verified_investigation_id": null
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "dataset": "raw_data",
+    "status": "success",
+    "excluded_rows": 1,
+    "rows_with_measurement_values": 1,
+    "rows_without_measurement_values": 0,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {
+      "Radiometer1Value": 1,
+      "Radiometer2Value": 1,
+      "Radiometer3Value": 1,
+      "Radiometer4Value": 1,
+      "Anemometer1": 1,
+      "Anemometer2": 1,
+      "FanTachometer": 1,
+      "SmokeWireV": 1,
+      "SmokeWireI": 1,
+      "Sample1IgniterV": 1,
+      "Sample1IgniterI": 1,
+      "Sample2IgniterV": 1,
+      "Sample2IgniterI": 1,
+      "Sample3IgniterV": 1,
+      "Sample3IgniterI": 1,
+      "Sample4IgniterV": 1,
+      "Sample4IgniterI": 1,
+      "Sample5IgniterV": 1,
+      "Sample5IgniterI": 1,
+      "Sample6IgniterV": 1,
+      "Sample6IgniterI": 1,
+      "Sample7IgniterV": 1,
+      "Sample7IgniterI": 1,
+      "Sample8IgniterV": 1,
+      "Sample8IgniterI": 1,
+      "Sample9IgniterV": 1,
+      "Sample9IgniterI": 1,
+      "PCM Air Temp (degC)": 1,
+      "PCM Press EPS1 (psi)": 1,
+      "PCM Press EPS2 (Psi)": 1,
+      "PCM Press EPS3 (PSI)": 1,
+      "PCM Press/Temp (psi/K)": 1,
+      "FIZ1 Smoke Detector Obscuration  (V)": 1,
+      "FIZ 2 Smoke Detector Obscuration (V)": 1,
+      "FIZ 1 Smoke Detector Scatterometer (V)": 1,
+      "FIZ 2 Smoke Detector Scatterometer (V)": 1,
+      "FIZ 1 Cabin Fan delta P (Pa)": 1,
+      "FIZ 2 Cabin Fan Delta P (Pa)": 1,
+      "body rate x axis (rad/s)": 1,
+      "body rate y axis (rad/s)": 1,
+      "body rate z axis (rad/s)": 1,
+      "acceleration x axis (m/s^2)": 1,
+      "acceleration y axis (m/s^2)": 1,
+      "acceleration z axis (m/s^2)": 1
+    },
+    "examples": [
+      {
+        "source_excel_row": "3973",
+        "exclusion_reason": "out_of_range_primary_timestamp",
+        "measurement_preview": {
+          "Radiometer1Value": "-4002.47233224",
+          "Radiometer2Value": "-4001.97759056",
+          "Radiometer3Value": "-3844.31938454",
+          "Radiometer4Value": "-3969.92651146",
+          "Anemometer1": "-76.186137",
+          "Anemometer2": "-75.49037",
+          "FanTachometer": "77938.3163379432",
+          "SmokeWireV": "-7.3781259385"
+        }
+      }
+    ],
+    "review_status": "pending"
+  },
+  {
+    "dataset": "cygnus_data",
+    "status": "success",
+    "excluded_rows": 54461,
+    "rows_with_measurement_values": 1,
+    "rows_without_measurement_values": 54460,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {
+      "PCM Air Temp (degC)": 1,
+      "PCM Press EPS 1 (psi)": 1,
+      "PCM Press ECM 2 (psi)": 1,
+      "PCM Press EPS 3 (psi)": 1,
+      "PCM Press/Temp (psi/K)": 1,
+      "FIZ1 Smoke Detector Obscuration  (V)": 1,
+      "FIZ 2 Smoke Detector Obscuration (V)": 1,
+      "FIZ 1 Smoke Detector Scatterometer (V)": 1,
+      "FIZ 2 Smoke Detector Scatterometer (V)": 1,
+      "FIZ 1 Cabin Fan delta P (Pa)": 1,
+      "FIZ 2 Cabin Fan Delta P (Pa)": 1,
+      "body rate x axis (rad/s)": 1,
+      "body rate y axis (rad/s)": 1,
+      "body rate z axis (rad/s)": 1,
+      "acceleration x axis (m/s^2)": 1,
+      "acceleration y axis (m/s^2)": 1,
+      "acceleration z axis (m/s^2)": 1
+    },
+    "examples": [
+      {
+        "source_excel_row": "3846",
+        "exclusion_reason": "out_of_range_primary_timestamp",
+        "measurement_preview": {
+          "PCM Air Temp (degC)": "0.0",
+          "PCM Press EPS 1 (psi)": "0.0",
+          "PCM Press ECM 2 (psi)": "0.0",
+          "PCM Press EPS 3 (psi)": "0.0",
+          "PCM Press/Temp (psi/K)": "0.0",
+          "FIZ1 Smoke Detector Obscuration  (V)": "0.0",
+          "FIZ 2 Smoke Detector Obscuration (V)": "0.0",
+          "FIZ 1 Smoke Detector Scatterometer (V)": "0.0"
+        }
+      }
+    ],
+    "review_status": "pending"
+  },
+  {
+    "dataset": "cygnus_smoke_detector_data",
+    "status": "success",
+    "excluded_rows": 54461,
+    "rows_with_measurement_values": 1,
+    "rows_without_measurement_values": 54460,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {
+      "FIZ 2 Smoke Detector Obscuration (V)": 1,
+      "FIZ 2 Smoke Detector Scatterometer (V)": 1
+    },
+    "examples": [
+      {
+        "source_excel_row": "3847",
+        "exclusion_reason": "out_of_range_primary_timestamp",
+        "measurement_preview": {
+          "FIZ 2 Smoke Detector Obscuration (V)": "0.0",
+          "FIZ 2 Smoke Detector Scatterometer (V)": "0.0"
+        }
+      }
+    ],
+    "review_status": "pending"
+  },
+  {
+    "dataset": "cygnus_pressure_data",
+    "status": "success",
+    "excluded_rows": 54461,
+    "rows_with_measurement_values": 1,
+    "rows_without_measurement_values": 54460,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {
+      "PCM EPS 1 Press (psi)": 1,
+      "PCM EPS 2 Press (psi)": 1,
+      "PCM EPS 3 Press (psi)": 1
+    },
+    "examples": [
+      {
+        "source_excel_row": "3846",
+        "exclusion_reason": "out_of_range_primary_timestamp",
+        "measurement_preview": {
+          "PCM EPS 1 Press (psi)": "0.0",
+          "PCM EPS 2 Press (psi)": "0.0",
+          "PCM EPS 3 Press (psi)": "0.0"
+        }
+      }
+    ],
+    "review_status": "pending"
+  },
+  {
+    "dataset": "cygnus_temperature_data",
+    "status": "success",
+    "excluded_rows": 54461,
+    "rows_with_measurement_values": 1,
+    "rows_without_measurement_values": 54460,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {
+      "PCM Air Temp (degC)": 1
+    },
+    "examples": [
+      {
+        "source_excel_row": "3846",
+        "exclusion_reason": "out_of_range_primary_timestamp",
+        "measurement_preview": {
+          "PCM Air Temp (degC)": "0.0"
+        }
+      }
+    ],
+    "review_status": "pending"
+  },
+  {
+    "dataset": "saffire_data",
+    "status": "success",
+    "excluded_rows": 0,
+    "rows_with_measurement_values": 0,
+    "rows_without_measurement_values": 0,
+    "missing_timestamp_rows_with_measurements": 0,
+    "populated_measurement_columns": {},
+    "examples": [],
+    "review_status": "pending"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "source_file": "Saffire-III Telemetry Data.xlsx",
+  "source_sha256": "8b047217d713dd235e1435940901c21f3215e1c4f9ea09f89ea5a98068861bc9",
+  "datasets": [
+    {
+      "dataset": "raw_data",
+      "worksheet": "RawData",
+      "status": "success",
+      "records": 3972,
+      "columns": 50,
+      "blank_rows_skipped": 69490
+    },
+    {
+      "dataset": "cygnus_data",
+      "worksheet": "CygnusData",
+      "status": "success",
+      "records": 58305,
+      "columns": 25,
+      "blank_rows_skipped": 11564
+    },
+    {
+      "dataset": "cygnus_smoke_detector_data",
+      "worksheet": "CygnusSmokeDetectorData",
+      "status": "success",
+      "records": 58305,
+      "columns": 9,
+      "blank_rows_skipped": 0
+    },
+    {
+      "dataset": "cygnus_pressure_data",
+      "worksheet": "CygnusPressureData",
+      "status": "success",
+      "records": 58305,
+      "columns": 10,
+      "blank_rows_skipped": 0
+    },
+    {
+      "dataset": "cygnus_temperature_data",
+      "worksheet": "CygnusTemperatureData",
+      "status": "success",
+      "records": 58305,
+      "columns": 4,
+      "blank_rows_skipped": 0
+    },
+    {
+      "dataset": "saffire_data",
+      "worksheet": "SaffireData",
+      "status": "success",
+      "records": 47,
+      "columns": 33,
+      "blank_rows_skipped": 0
+    }
+  ],
+  "scientific_validation_status": "pending"
+}

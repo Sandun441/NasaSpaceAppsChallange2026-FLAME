@@ -1,0 +1,12 @@
+﻿dataset_id,category,granularity,record_count,data_file,source_file,source_worksheet,scientific_validation
+bass_ii_experiments,combustion,experiment,129,processed_data/bass_ii_experiments.csv,BASS-II Test Matrix by PI Final.xlsx,Multiple worksheets,pending
+saffire_iii_sample_1,combustion,sensor_time_series,20909,processed_data/saffire/saffire_iii_sample_1.csv,Saffire III Sample 1 Sensors.xlsx,Calibrated Data,pending
+saffire_iii_sample_2,combustion,sensor_time_series,4848,processed_data/saffire/saffire_iii_sample_2.csv,Saffire III Sample 2 Sensors.xlsx,Calibrated Data,pending
+saffire_sample_5,combustion,sensor_time_series,11363,processed_data/saffire/saffire_sample_5.csv,Saffire Sensor Data Sample 5.xlsx,Calibrated Data,pending
+saffire_sample_6,combustion,sensor_time_series,11363,processed_data/saffire/saffire_sample_6.csv,Saffire Sensor Data Sample 6.xlsx,Calibrated Data,pending
+telemetry_raw_data,spacecraft_telemetry,telemetry_time_series,3971,processed_data/saffire/telemetry/analysis_ready/raw_data_analysis.csv,Saffire-III Telemetry Data.xlsx,RawData,pending
+telemetry_cygnus_data,spacecraft_telemetry,telemetry_time_series,3844,processed_data/saffire/telemetry/analysis_ready/cygnus_data_analysis.csv,Saffire-III Telemetry Data.xlsx,CygnusData,pending
+telemetry_cygnus_smoke_detector_data,spacecraft_telemetry,telemetry_time_series,3844,processed_data/saffire/telemetry/analysis_ready/cygnus_smoke_detector_data_analysis.csv,Saffire-III Telemetry Data.xlsx,CygnusSmokeDetectorData,pending
+telemetry_cygnus_pressure_data,spacecraft_telemetry,telemetry_time_series,3844,processed_data/saffire/telemetry/analysis_ready/cygnus_pressure_data_analysis.csv,Saffire-III Telemetry Data.xlsx,CygnusPressureData,pending
+telemetry_cygnus_temperature_data,spacecraft_telemetry,telemetry_time_series,3844,processed_data/saffire/telemetry/analysis_ready/cygnus_temperature_data_analysis.csv,Saffire-III Telemetry Data.xlsx,CygnusTemperatureData,pending
+telemetry_saffire_data,spacecraft_telemetry,telemetry_time_series,47,processed_data/saffire/telemetry/analysis_ready/saffire_data_analysis.csv,Saffire-III Telemetry Data.xlsx,SaffireData,pending

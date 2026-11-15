@@ -1,0 +1,97 @@
+{
+  "project": "NASA FLAME",
+  "catalog_dataset_count": 11,
+  "verified_dataset_count": 11,
+  "passed": 11,
+  "all_passed": true,
+  "results": [
+    {
+      "dataset_id": "bass_ii_experiments",
+      "expected_records": 129,
+      "actual_records": 129,
+      "columns": 20,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "saffire_iii_sample_1",
+      "expected_records": 20909,
+      "actual_records": 20909,
+      "columns": 68,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "saffire_iii_sample_2",
+      "expected_records": 4848,
+      "actual_records": 4848,
+      "columns": 68,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "saffire_sample_5",
+      "expected_records": 11363,
+      "actual_records": 11363,
+      "columns": 68,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "saffire_sample_6",
+      "expected_records": 11363,
+      "actual_records": 11363,
+      "columns": 68,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_raw_data",
+      "expected_records": 3971,
+      "actual_records": 3971,
+      "columns": 51,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_cygnus_data",
+      "expected_records": 3844,
+      "actual_records": 3844,
+      "columns": 26,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_cygnus_smoke_detector_data",
+      "expected_records": 3844,
+      "actual_records": 3844,
+      "columns": 10,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_cygnus_pressure_data",
+      "expected_records": 3844,
+      "actual_records": 3844,
+      "columns": 11,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_cygnus_temperature_data",
+      "expected_records": 3844,
+      "actual_records": 3844,
+      "columns": 5,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    },
+    {
+      "dataset_id": "telemetry_saffire_data",
+      "expected_records": 47,
+      "actual_records": 47,
+      "columns": 34,
+      "invalid_width_rows": 0,
+      "status": "passed"
+    }
+  ]
+}

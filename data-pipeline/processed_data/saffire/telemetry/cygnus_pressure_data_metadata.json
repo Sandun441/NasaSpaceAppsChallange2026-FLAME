@@ -1,0 +1,34 @@
+{
+  "dataset": "cygnus_pressure_data",
+  "source_file": "Saffire-III Telemetry Data.xlsx",
+  "source_worksheet": "CygnusPressureData",
+  "source_header_row": 1,
+  "source_data_start_row": 2,
+  "source_columns": 10,
+  "extracted_records": 58305,
+  "blank_rows_skipped": 0,
+  "original_headers": [
+    "CygnusTimestamp",
+    "Relative Time (ms)",
+    "Relative Time (s)",
+    "PCM EPS 1 Press (psi)",
+    "PCM EPS 2 Press (psi)",
+    "PCM EPS 3 Press (psi)",
+    "unnamed_column_7",
+    "Igniter data for line",
+    "unnamed_column_9",
+    "unnamed_column_10"
+  ],
+  "processing_status": "extracted_not_validated",
+  "verified_investigation_id": null,
+  "notes": [
+    "Original row order preserved.",
+    "No sensor values were normalized.",
+    "Blank cells remain blank.",
+    "Zero and negative values preserved.",
+    "Repeated timestamps retained.",
+    "Auxiliary columns retained.",
+    "Units not independently verified.",
+    "Spreadsheet formulas read as cached values."
+  ]
+}

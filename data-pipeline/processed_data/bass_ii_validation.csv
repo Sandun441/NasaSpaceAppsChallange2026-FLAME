@@ -1,0 +1,39 @@
+﻿source_worksheet,source_excel_row,test_number,measurement,original_value,issue_type,review_status
+Bhattacharjee,3,B2,calibrated final O2 % by vol,1.6,oxygen_value_requires_review,pending
+Bhattacharjee,3,B2,Final CO2 % by vol,,missing_measurement,pending
+Bhattacharjee,3,B2,Final CO (ppm),,missing_measurement,pending
+Bhattacharjee,5,B4,Initial CO (ppm),-1,negative_co_requires_review,pending
+Bhattacharjee,15,B14,calibrated final O2 % by vol,none,missing_measurement,pending
+Bhattacharjee,15,B14,Final CO2 % by vol,none,missing_measurement,pending
+Bhattacharjee,15,B14,Final CO (ppm),none,missing_measurement,pending
+Bhattacharjee,22,B21,Initial CO (ppm),-1,negative_co_requires_review,pending
+Bhattacharjee,23,B22,Initial CO (ppm),-1,negative_co_requires_review,pending
+Ferkul,4,F3,calibrated final O2 % by vol,none,missing_measurement,pending
+Ferkul,4,F3,Final CO2 % by vol,none,missing_measurement,pending
+Ferkul,4,F3,Final CO (ppm),none,missing_measurement,pending
+Miller,6,M5,Final CO (ppm),>500,qualified_or_non_numeric_value,pending
+Miller,11,M10,Initial CO (ppm),-1,negative_co_requires_review,pending
+Olson,2,O1,Initial CO (ppm),-1,negative_co_requires_review,pending
+Olson,3,O2,Initial CO (ppm),-1,negative_co_requires_review,pending
+Olson,6,O4,Final CO (ppm),OR,qualified_or_non_numeric_value,pending
+Olson,7,O5a,Initial CO (ppm),-2,negative_co_requires_review,pending
+Olson,16,O12,Initial CO (ppm),OR,qualified_or_non_numeric_value,pending
+Olson,16,O12,Final CO (ppm),OR,qualified_or_non_numeric_value,pending
+Olson,18,O13b,Final CO (ppm),over,qualified_or_non_numeric_value,pending
+Olson,26,O20,Initial CO (ppm),-3,negative_co_requires_review,pending
+Fernandez-Pello,5,P3b,Final CO2 % by vol,none,missing_measurement,pending
+Fernandez-Pello,24,P22a,calibrated final O2 % by vol,0.6,oxygen_value_requires_review,pending
+Fernandez-Pello,24,P22a,Final CO2 % by vol,none,missing_measurement,pending
+Fernandez-Pello,24,P22a,Final CO (ppm),none,missing_measurement,pending
+Fernandez-Pello,25,P22b,Initial CO2 % by vol,none,missing_measurement,pending
+Fernandez-Pello,25,P22b,Initial CO (ppm),none,missing_measurement,pending
+T'ien,25,T25,Initial CO (ppm),-1,negative_co_requires_review,pending
+T'ien,26,T26,Initial CO (ppm),-1,negative_co_requires_review,pending
+T'ien,27,T27,Initial CO (ppm),-1,negative_co_requires_review,pending
+T'ien,28,T28a,calibrated final O2 % by vol,0.9,oxygen_value_requires_review,pending
+T'ien,28,T28a,Final CO2 % by vol,none,missing_measurement,pending
+T'ien,28,T28a,Initial CO (ppm),-1,negative_co_requires_review,pending
+T'ien,28,T28a,Final CO (ppm),none,missing_measurement,pending
+T'ien,29,T28b,Initial CO2 % by vol,none,missing_measurement,pending
+T'ien,29,T28b,Initial CO (ppm),none,missing_measurement,pending
+T'ien,30,T29,Initial CO (ppm),-1,negative_co_requires_review,pending

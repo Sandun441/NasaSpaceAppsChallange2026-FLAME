@@ -1,0 +1,493 @@
+{
+  "$defs": {
+    "ChannelInfo": {
+      "description": "Measurement channel specification.",
+      "properties": {
+        "channel_name": {
+          "description": "Column or sensor name as recorded in source",
+          "title": "Channel Name",
+          "type": "string"
+        },
+        "physical_quantity": {
+          "description": "Classified physical phenomenon (e.g. temperature, heat_flux, pressure)",
+          "title": "Physical Quantity",
+          "type": "string"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verified scientific physical unit",
+          "title": "Unit"
+        },
+        "sampling_rate_hz": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Nominal sampling frequency in Hertz",
+          "title": "Sampling Rate Hz"
+        }
+      },
+      "required": [
+        "channel_name",
+        "physical_quantity"
+      ],
+      "title": "ChannelInfo",
+      "type": "object"
+    },
+    "DataProvenance": {
+      "description": "Traceable physical and digital origin of scientific data.",
+      "properties": {
+        "source_file": {
+          "description": "Name of the source Excel workbook or document",
+          "title": "Source File",
+          "type": "string"
+        },
+        "source_worksheet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Source worksheet or table name",
+          "title": "Source Worksheet"
+        },
+        "source_excel_row": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Row index in original workbook where applicable",
+          "title": "Source Excel Row"
+        },
+        "source_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "SHA256 hash of original file if verified",
+          "title": "Source Sha256"
+        },
+        "data_file": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Relative path to processed CSV dataset file",
+          "title": "Data File"
+        }
+      },
+      "required": [
+        "source_file"
+      ],
+      "title": "DataProvenance",
+      "type": "object"
+    },
+    "ExperimentalConditions": {
+      "description": "Documented physical parameters and fuel characteristics under test.",
+      "properties": {
+        "fuel_material": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Fuel material substrate (e.g. Cotton, PMMA, Nomex, SIBAL)",
+          "title": "Fuel Material"
+        },
+        "material_details": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Specific fuel thickness, dimensions, or weave",
+          "title": "Material Details"
+        },
+        "gravity_regime": {
+          "default": "microgravity",
+          "description": "Gravity level: microgravity_iss_msg, microgravity_cygnus, or normal_gravity",
+          "title": "Gravity Regime",
+          "type": "string"
+        },
+        "oxygen_concentration": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Ambient or initial oxygen percentage (O2 % vol)",
+          "title": "Oxygen Concentration"
+        },
+        "flow_velocity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Forced convection or ventilation rate (cm/s or RPM)",
+          "title": "Flow Velocity"
+        },
+        "pressure": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Ambient chamber or vehicle pressure",
+          "title": "Pressure"
+        },
+        "flow_restrictor": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Flow restrictor orifice index if applicable",
+          "title": "Flow Restrictor"
+        }
+      },
+      "title": "ExperimentalConditions",
+      "type": "object"
+    },
+    "MeasuredStatistics": {
+      "description": "Real descriptive statistics computed from actual measurements (never fabricated).",
+      "properties": {
+        "min_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Minimum recorded value",
+          "title": "Min Value"
+        },
+        "max_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Maximum recorded value",
+          "title": "Max Value"
+        },
+        "mean_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Arithmetic mean of valid readings",
+          "title": "Mean Value"
+        },
+        "time_of_max_seconds": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Elapsed seconds when maximum occurred",
+          "title": "Time Of Max Seconds"
+        },
+        "valid_sample_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Count of valid numeric values",
+          "title": "Valid Sample Count"
+        },
+        "missing_sample_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Count of null, blank, or NaN data gaps",
+          "title": "Missing Sample Count"
+        },
+        "delta_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Net observed delta (e.g. Initial O2 - Final O2)",
+          "title": "Delta Value"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Descriptive notes on the computation scope",
+          "title": "Notes"
+        }
+      },
+      "title": "MeasuredStatistics",
+      "type": "object"
+    },
+    "QualityAndValidation": {
+      "description": "Validation report references, screening notes, and flagged readings.",
+      "properties": {
+        "validation_status": {
+          "default": "pending",
+          "description": "Validation status: pending, extracted_not_validated, verified",
+          "title": "Validation Status",
+          "type": "string"
+        },
+        "quality_report_file": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Relative path to quality or validation report",
+          "title": "Quality Report File"
+        },
+        "quality_flags": {
+          "description": "Specific data issues flagged for investigator review",
+          "items": {
+            "type": "string"
+          },
+          "title": "Quality Flags",
+          "type": "array"
+        },
+        "known_issues": {
+          "description": "Known experimental or telemetry caveats",
+          "items": {
+            "type": "string"
+          },
+          "title": "Known Issues",
+          "type": "array"
+        }
+      },
+      "title": "QualityAndValidation",
+      "type": "object"
+    }
+  },
+  "description": "Standardized Scientific Knowledge Record for NASA FLAME RAG Architecture.\nServes as the fundamental unit of retrieval and grounding.",
+  "properties": {
+    "record_id": {
+      "description": "Unique deterministic primary key (e.g. flame_run_bass_ii_b2)",
+      "title": "Record Id",
+      "type": "string"
+    },
+    "record_type": {
+      "description": "Granularity of the record",
+      "enum": [
+        "investigation",
+        "dataset",
+        "experiment_run",
+        "channel_group"
+      ],
+      "title": "Record Type",
+      "type": "string"
+    },
+    "experiment_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Identifies specific experiment, test, or sample",
+      "title": "Experiment Id"
+    },
+    "dataset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Parent dataset identifier in dataset_catalog.json",
+      "title": "Dataset Id"
+    },
+    "investigation_name": {
+      "description": "Formal NASA investigation name (e.g. BASS-II, Saffire-III, Cygnus Telemetry)",
+      "title": "Investigation Name",
+      "type": "string"
+    },
+    "title": {
+      "description": "Human-readable title describing this scientific record",
+      "title": "Title",
+      "type": "string"
+    },
+    "scientific_objective": {
+      "description": "Scientific goals and combustion research objectives",
+      "title": "Scientific Objective",
+      "type": "string"
+    },
+    "description": {
+      "description": "Detailed narrative explaining experimental scope, setup, and results",
+      "title": "Description",
+      "type": "string"
+    },
+    "materials_and_conditions": {
+      "$ref": "#/$defs/ExperimentalConditions"
+    },
+    "channels_and_units": {
+      "items": {
+        "$ref": "#/$defs/ChannelInfo"
+      },
+      "title": "Channels And Units",
+      "type": "array"
+    },
+    "measured_statistics": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/MeasuredStatistics"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "provenance": {
+      "$ref": "#/$defs/DataProvenance"
+    },
+    "quality": {
+      "$ref": "#/$defs/QualityAndValidation"
+    },
+    "missing_fields": {
+      "description": "Explicitly documented missing or unrecorded metadata attributes",
+      "items": {
+        "type": "string"
+      },
+      "title": "Missing Fields",
+      "type": "array"
+    },
+    "searchable_text": {
+      "description": "Pre-compiled, dense scientific text optimized for BM25 and vector embedding",
+      "title": "Searchable Text",
+      "type": "string"
+    },
+    "keywords": {
+      "description": "Searchable domain keywords and physical parameters",
+      "items": {
+        "type": "string"
+      },
+      "title": "Keywords",
+      "type": "array"
+    },
+    "created_at_utc": {
+      "description": "ISO 8601 generation timestamp",
+      "title": "Created At Utc",
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_id",
+    "record_type",
+    "investigation_name",
+    "title",
+    "scientific_objective",
+    "description",
+    "provenance",
+    "searchable_text",
+    "created_at_utc"
+  ],
+  "title": "ScientificKnowledgeRecord",
+  "type": "object"
+}

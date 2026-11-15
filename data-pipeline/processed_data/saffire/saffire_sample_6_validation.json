@@ -1,0 +1,43 @@
+{
+  "dataset": "saffire_sample_6",
+  "records": 11363,
+  "sensor_channels": 61,
+  "time_integrity": {
+    "missing_elapsed_time": 0,
+    "non_increasing_elapsed_time": 0,
+    "large_time_gaps_over_0_1s": 0,
+    "non_increasing_epoch": 0,
+    "index_sequence_breaks": 0,
+    "median_sampling_interval": 0.03300000000000125
+  },
+  "missing_or_non_numeric_sensor_values": 0,
+  "constant_channels": [
+    "PC104 -12V",
+    "Igniter Select 1",
+    "Igniter Select 2",
+    "Igniter Select 3",
+    "Igniter Select 4",
+    "Igniter Select 5",
+    "Igniter Select 7",
+    "Igniter Select 8",
+    "Igniter Select 9",
+    "Smoke Wire Select",
+    "GSE DIO0",
+    "GSE DIO1",
+    "Camera 1 Power Control",
+    "Camera 2 Power Control",
+    "Anemometer Power Control 1&2",
+    "O2 & CO2 Power Control"
+  ],
+  "channels_with_negative_values": [
+    "Average Fan Speed",
+    "Anemometer 2",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Igniter Voltage",
+    "Fan Tach /100"
+  ],
+  "scientific_validation_status": "pending"
+}

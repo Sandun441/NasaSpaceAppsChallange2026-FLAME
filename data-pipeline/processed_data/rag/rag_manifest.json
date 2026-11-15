@@ -1,0 +1,28 @@
+{
+  "pipeline_version": "1.0.0",
+  "generation_timestamp_utc": "2026-11-14T13:57:32.731052+00:00",
+  "total_knowledge_records": 155,
+  "records_by_type": {
+    "channel_group": 8,
+    "dataset": 11,
+    "investigation": 3,
+    "experiment_run": 133
+  },
+  "records_by_investigation": {
+    "Cygnus Spacecraft Engineering Telemetry": 10,
+    "Saffire-III (Spacecraft Fire Safety Demonstration III)": 14,
+    "BASS-II (Burning and Suppression of Solids - II)": 131
+  },
+  "total_missing_field_annotations": 49,
+  "artifacts_generated": [
+    "processed_data/rag/scientific_knowledge_records.json",
+    "processed_data/rag/scientific_knowledge_records.jsonl",
+    "processed_data/rag/rag_record_schema.json",
+    "processed_data/rag/rag_manifest.json"
+  ],
+  "integrity_checks": {
+    "unique_ids_verified": true,
+    "zero_mock_data_verified": true,
+    "deterministic_sorting": true
+  }
+}

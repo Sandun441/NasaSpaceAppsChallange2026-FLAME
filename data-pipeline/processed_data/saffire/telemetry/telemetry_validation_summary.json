@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "raw_data",
+    "status": "success",
+    "records": 3972,
+    "columns": 51,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 0,
+      "duplicate_timestamps": 5,
+      "non_increasing_in_row_order": 8,
+      "negative_time_differences": 8,
+      "minimum_timestamp": -62135683438000.0,
+      "maximum_timestamp": 1496611856045.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 3972,
+    "constant_channels": [
+      "Sample3IgniterV",
+      "Sample3IgniterI",
+      "Sample4IgniterV",
+      "Sample4IgniterI",
+      "Sample5IgniterV",
+      "Sample5IgniterI",
+      "Sample6IgniterV",
+      "Sample6IgniterI",
+      "Sample7IgniterV",
+      "Sample7IgniterI",
+      "Sample8IgniterV",
+      "Sample8IgniterI",
+      "Sample9IgniterV",
+      "Sample9IgniterI",
+      "FIZ1 Smoke Detector Obscuration  (V)",
+      "Saffire Repeat?"
+    ],
+    "channels_with_negative_values": [
+      "Radiometer1Value",
+      "Radiometer2Value",
+      "Radiometer3Value",
+      "Radiometer4Value",
+      "Anemometer1",
+      "Anemometer2",
+      "FanTachometer",
+      "SmokeWireV",
+      "SmokeWireI",
+      "Sample1IgniterV",
+      "Sample1IgniterI",
+      "Sample2IgniterV",
+      "Sample2IgniterI",
+      "Sample3IgniterV",
+      "Sample3IgniterI",
+      "Sample4IgniterV",
+      "Sample4IgniterI",
+      "Sample5IgniterV",
+      "Sample5IgniterI",
+      "Sample6IgniterV",
+      "Sample6IgniterI",
+      "Sample7IgniterV",
+      "Sample7IgniterI",
+      "Sample8IgniterV",
+      "Sample8IgniterI",
+      "Sample9IgniterV",
+      "Sample9IgniterI",
+      "PCM Press/Temp (psi/K)",
+      "FIZ 2 Smoke Detector Obscuration (V)",
+      "FIZ 1 Cabin Fan delta P (Pa)",
+      "FIZ 2 Cabin Fan Delta P (Pa)",
+      "body rate x axis (rad/s)",
+      "body rate y axis (rad/s)",
+      "body rate z axis (rad/s)",
+      "acceleration x axis (m/s^2)",
+      "acceleration y axis (m/s^2)",
+      "acceleration z axis (m/s^2)"
+    ],
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_data",
+    "status": "success",
+    "records": 58305,
+    "columns": 26,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 54460,
+      "duplicate_timestamps": 5,
+      "non_increasing_in_row_order": 8,
+      "negative_time_differences": 8,
+      "minimum_timestamp": -62135683438000.0,
+      "maximum_timestamp": 1496611856045.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 1217345,
+    "constant_channels": [
+      "unnamed_column_21",
+      "Cygnus-Saffire Time Stamp (ms)",
+      "unnamed_column_23",
+      "unnamed_column_24",
+      "Saffire timestamp row-to-row delta t (ms)"
+    ],
+    "channels_with_negative_values": [
+      "PCM Press/Temp (psi/K)",
+      "FIZ 2 Smoke Detector Obscuration (V)",
+      "FIZ 1 Cabin Fan delta P (Pa)",
+      "FIZ 2 Cabin Fan Delta P (Pa)",
+      "body rate x axis (rad/s)",
+      "body rate y axis (rad/s)",
+      "body rate z axis (rad/s)",
+      "acceleration x axis (m/s^2)",
+      "acceleration y axis (m/s^2)",
+      "acceleration z axis (m/s^2)"
+    ],
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_smoke_detector_data",
+    "status": "success",
+    "records": 58305,
+    "columns": 10,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 54460,
+      "duplicate_timestamps": 5,
+      "non_increasing_in_row_order": 8,
+      "negative_time_differences": 8,
+      "minimum_timestamp": -62135683438000.0,
+      "maximum_timestamp": 1496611856045.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 276145,
+    "constant_channels": [
+      "unnamed_column_5"
+    ],
+    "channels_with_negative_values": [
+      "FIZ 2 Smoke Detector Obscuration (V)",
+      "CygnusTimestamp_column_6",
+      "Relative Time (ms)_column_7",
+      "Relative Time (s)_column_8"
+    ],
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_pressure_data",
+    "status": "success",
+    "records": 58305,
+    "columns": 11,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 54460,
+      "duplicate_timestamps": 5,
+      "non_increasing_in_row_order": 8,
+      "negative_time_differences": 8,
+      "minimum_timestamp": -62135683438000.0,
+      "maximum_timestamp": 1496611856045.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 396592,
+    "constant_channels": [
+      "unnamed_column_7"
+    ],
+    "channels_with_negative_values": [
+      "unnamed_column_9"
+    ],
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "cygnus_temperature_data",
+    "status": "success",
+    "records": 58305,
+    "columns": 5,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 54460,
+      "duplicate_timestamps": 5,
+      "non_increasing_in_row_order": 8,
+      "negative_time_differences": 8,
+      "minimum_timestamp": -62135683438000.0,
+      "maximum_timestamp": 1496611856045.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 54460,
+    "constant_channels": [],
+    "channels_with_negative_values": [],
+    "scientific_validation_status": "pending"
+  },
+  {
+    "dataset": "saffire_data",
+    "status": "success",
+    "records": 47,
+    "columns": 34,
+    "timestamp_checks": {
+      "missing_or_non_numeric": 0,
+      "duplicate_timestamps": 0,
+      "non_increasing_in_row_order": 0,
+      "negative_time_differences": 0,
+      "minimum_timestamp": 1496610472686.0,
+      "maximum_timestamp": 1496611852685.0
+    },
+    "source_row_gaps": 0,
+    "missing_measurement_cells": 103,
+    "constant_channels": [
+      "delta timestamp (ms)",
+      "Sample3IgniterV",
+      "Sample3IgniterI",
+      "Sample4IgniterV",
+      "Sample4IgniterI",
+      "Sample5IgniterV",
+      "Sample5IgniterI",
+      "Sample6IgniterV",
+      "Sample6IgniterI",
+      "Sample7IgniterV",
+      "Sample7IgniterI",
+      "Sample8IgniterV",
+      "Sample8IgniterI",
+      "Sample9IgniterV",
+      "Sample9IgniterI"
+    ],
+    "channels_with_negative_values": [
+      "Radiometer1Value",
+      "Radiometer2Value",
+      "Radiometer3Value",
+      "Radiometer4Value",
+      "FanTachometer",
+      "SmokeWireV",
+      "SmokeWireI",
+      "Sample1IgniterV",
+      "Sample1IgniterI",
+      "Sample2IgniterV",
+      "Sample2IgniterI",
+      "Sample3IgniterV",
+      "Sample3IgniterI",
+      "Sample4IgniterV",
+      "Sample4IgniterI",
+      "Sample5IgniterV",
+      "Sample5IgniterI",
+      "Sample6IgniterV",
+      "Sample6IgniterI",
+      "Sample7IgniterV",
+      "Sample7IgniterI",
+      "Sample8IgniterV",
+      "Sample8IgniterI",
+      "Sample9IgniterV",
+      "Sample9IgniterI",
+      "Tach/100"
+    ],
+    "scientific_validation_status": "pending"
+  }
+]
