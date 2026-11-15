@@ -8,6 +8,9 @@ from typing import Optional, Literal, List, Dict, Any
 from api.ai_execution_router import create_ai_execution_router
 from pathlib import Path
 from dotenv import load_dotenv
+from pathlib import Path
+
+load_dotenv(dotenv_path=ENV_PATH, override=True)
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
