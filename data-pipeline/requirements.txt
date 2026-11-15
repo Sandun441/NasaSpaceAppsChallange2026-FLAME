@@ -8,3 +8,5 @@ lxml
 sentence-transformers
 torch
 scikit-learn
+fastapi
+uvicorn[standard]
