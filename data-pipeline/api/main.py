@@ -10,9 +10,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pathlib import Path
 
-load_dotenv(dotenv_path=ENV_PATH, override=True)
+ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=ENV_PATH, override=False)
 
-load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+
 
 from fastapi import FastAPI, HTTPException, Query, Response, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
